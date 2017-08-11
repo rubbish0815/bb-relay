@@ -1,0 +1,27 @@
+{
+  "name": "kt-bb-relay",
+  "description": "kt-Byteball Relay",
+  "author": "byteball",
+  "version": "0.1.0",
+  "main": "start.js",
+  "keywords": [
+    "relay",
+    "byteball",
+    "full node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/rubbish0815/bb-relay.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/rubbish0815/bb-relay/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "byteballcore": "git+https://github.com/rubbish0815/bb_core.git"
+  }
+}
