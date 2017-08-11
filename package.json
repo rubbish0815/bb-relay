@@ -22,6 +22,6 @@
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "byteballcore": "git+https://github.com/rubbish0815/bb_core.git"
+    "byteballcore": "git+https://github.com/rubbish0815/bb-core.git"
   }
 }
