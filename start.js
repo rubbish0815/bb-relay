@@ -2,7 +2,7 @@
 "use strict";
 var conf = require('byteballcore/conf.js');
 var myWitnesses = require('byteballcore/my_witnesses.js');
-var logger = require('byteballcore/logger.js');
+var logger = require('byteballcore/util/logger.js');
 
 function start(){
 	logger.log('starting');
