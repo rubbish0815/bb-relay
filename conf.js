@@ -11,7 +11,7 @@ exports.bLight = false;
 
 exports.storage = 'sqlite';
 
-/*livenet
+/* livenet
 exports.initial_witnesses = [
 	'BVVJ2K7ENPZZ3VYZFWQWK7ISPCATFIW3',
 	'DJMMI5JYA5BWQYSXDPRZJVLW3UGL3GJS',
@@ -27,7 +27,7 @@ exports.initial_witnesses = [
 	'UENJPVZ7HVHM6QGVGT6MWOJGGRTUTJXQ'
 ];
 */
-// new testnet
+// testnet
 exports.initial_witnesses = [
 	'2FF7PSL7FYXVU5UIQHCVDTTPUOOG75GX',
 	'2GPBEZTAXKWEXMWCTGZALIZDNWS5B3V7',
@@ -43,8 +43,16 @@ exports.initial_witnesses = [
 	'WELOXP3EOA75JWNO6S5ZJHOO3EYFKPIR'
 ];
 
+/* livenet
+exports.initial_peers = [
+	'wss://byteball.org/bb'
+];
+*/
+
+// testnet
 exports.initial_peers = [
 	'wss://byteball.org/bb-test'
 ];
+
 
 console.log('finished relay conf');
