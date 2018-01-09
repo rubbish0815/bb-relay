@@ -1,3 +1,4 @@
+
 /*jslint node: true */
 "use strict";
 
@@ -7,9 +8,10 @@ exports.bServeAsHub = false;
 exports.bSaveJointJson = true;
 exports.bLight = false;
 
+
 exports.storage = 'sqlite';
 
-/* Livenet
+
 exports.initial_witnesses = [
 	'BVVJ2K7ENPZZ3VYZFWQWK7ISPCATFIW3',
 	'DJMMI5JYA5BWQYSXDPRZJVLW3UGL3GJS',
@@ -24,9 +26,8 @@ exports.initial_witnesses = [
 	'TKT4UESIKTTRALRRLWS4SENSTJX6ODCW',
 	'UENJPVZ7HVHM6QGVGT6MWOJGGRTUTJXQ'
 ];
-*/
 
-new testnet
+/* new testnet
 exports.initial_witnesses = [
 	'2FF7PSL7FYXVU5UIQHCVDTTPUOOG75GX',
 	'2GPBEZTAXKWEXMWCTGZALIZDNWS5B3V7',
@@ -41,9 +42,26 @@ exports.initial_witnesses = [
 	'RJDYXC4YQ4AZKFYTJVCR5GQJF5J6KPRI',
 	'WELOXP3EOA75JWNO6S5ZJHOO3EYFKPIR'
 ];
+*/
 
+/* old testnet
+exports.initial_witnesses = [
+	'5K7CSLTRPC5LFLOS3D34GBHG7RFD4TPO',
+	'BTCI3SJOBSRA6TFF6GHI3SO4WDC3G2LY',
+	'CCNMWLURGSS5NS4YFLOPGAVXKMQXTXZR',
+	'EQYZCJQAJ4KHFTJ4BKUJFBWATCU5UO5A',
+	'FZ2S2HU42RECG46BEJYV44DIQYGFFNI2',
+	'IXFO5VS57ZMTBUTBZVG66ZF3K4WFLPJJ',
+	'NZOBDXWJIL2JVXZGY3OBP5MMMZMR2YUD',
+	'VEZA54TWIXIHZLHFHCEEBU3XFC7NKVKX',
+	'WJWKAJ2H5REGDSCCQMFGCENCODK6MN3X',
+	'ZAMTST6CVMQERNXQY3ZWIC5L2OMWWWTP',
+	'ZUWW66QUJR57BZSVA3NLM5FRHAFSX6B7',
+	'ZVT76QDYAXIIVYMWJWFMJPGYBZRY7JW7'
+];
+*/
 exports.initial_peers = [
-	'wss://byteball.org/bb-test'
+	'wss://byteball.org/bb'
 ];
 
 console.log('finished relay conf');
